@@ -1,0 +1,28 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Login",
+    "dateExported": "2024-02-23T17:46:12.483Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "958c4a20-67e1-45b5-983b-de22a935628e",
+            "colId": "b92c427a-65c6-44db-8373-132976eceee5",
+            "containerId": "",
+            "name": "Login",
+            "url": "http://localhost:3000/api/estudiantes//login",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-02-23T16:15:38.223Z",
+            "modified": "2024-02-23T17:26:06.887Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"correo\":\"suyen@email.com\",\n  \"password\":\"123456\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

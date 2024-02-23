@@ -1,0 +1,75 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Estudiantes_cursos",
+    "dateExported": "2024-02-18T05:15:32.899Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "5983db3d-8595-4b1f-b1ae-ef943a1aee7b",
+            "colId": "1fa96fc5-feaf-45c1-a0dc-067fd4bba89c",
+            "containerId": "",
+            "name": "Asignación_estudiantes_curso",
+            "url": "http://localhost:3000/api/estudiantes_Asigancion",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-02-18T04:13:54.964Z",
+            "modified": "2024-02-18T05:02:19.634Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"correo\":\"student@email.com\",\n  \"materia\":\"Ciencias\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "bca78a08-5f25-43c0-89f7-bff9ce2e9827",
+            "colId": "1fa96fc5-feaf-45c1-a0dc-067fd4bba89c",
+            "containerId": "",
+            "name": "Eliminar_estudiante_curso",
+            "url": "http://localhost:3000/api/estudiantes_Asigancion/65ce77ab87c1b9bc24e35190",
+            "method": "DELETE",
+            "sortNum": 20000,
+            "created": "2024-02-18T04:13:54.965Z",
+            "modified": "2024-02-18T05:02:53.906Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "8426fb17-b7fb-4e98-bd18-6016a0d44b88",
+            "colId": "1fa96fc5-feaf-45c1-a0dc-067fd4bba89c",
+            "containerId": "",
+            "name": "estudiantes_cursos",
+            "url": "http://localhost:3000/api/estudiantes_Asigancion",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-02-18T04:13:54.967Z",
+            "modified": "2024-02-18T04:58:49.929Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "d5d86746-4bde-41bd-9164-029312293d7b",
+            "colId": "1fa96fc5-feaf-45c1-a0dc-067fd4bba89c",
+            "containerId": "",
+            "name": "cursos_estudiantes",
+            "url": "http://localhost:3000/api/Asigancion_estudiantes/buscar",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-02-18T04:13:54.968Z",
+            "modified": "2024-02-18T04:13:54.968Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"correo\":\"student@email.com\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

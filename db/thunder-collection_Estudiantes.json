@@ -1,0 +1,108 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Estudiantes",
+    "dateExported": "2024-02-18T05:14:56.955Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "0806d39e-9b55-4b87-8ad9-faf684dc432b",
+            "colId": "8134ac2c-06db-42be-8efb-22a39b2b08a9",
+            "containerId": "",
+            "name": "estudiantesPost",
+            "url": "http://localhost:3000/api/estudiantes",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-02-18T04:13:54.864Z",
+            "modified": "2024-02-18T04:26:31.871Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\":\"maestro\",\n  \"correo\":\"teacher3@email.com\",\n  \"password\":\"123456\",\n  \"role\":\"TEACHER_ROLE\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "0dc2af11-5882-47be-98d6-f1c60cd5b8a2",
+            "colId": "8134ac2c-06db-42be-8efb-22a39b2b08a9",
+            "containerId": "",
+            "name": "estudiantesGet",
+            "url": "http://localhost:3000/api/estudiantes",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-02-18T04:13:54.865Z",
+            "modified": "2024-02-18T04:13:54.865Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "ccb81630-fc7a-4c1a-a6df-863205e36232",
+            "colId": "8134ac2c-06db-42be-8efb-22a39b2b08a9",
+            "containerId": "",
+            "name": "getEstudiantesById",
+            "url": "http://localhost:3000/api/estudiantes/65d1868e62e44e4c7b15cc0d",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-02-18T04:13:54.866Z",
+            "modified": "2024-02-18T04:26:53.660Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "f66c764e-c32a-45ea-8bb4-257d23f64fa5",
+            "colId": "8134ac2c-06db-42be-8efb-22a39b2b08a9",
+            "containerId": "",
+            "name": "estudiantesPut",
+            "url": "http://localhost:3000/api/estudiantes/65d1868e62e44e4c7b15cc0d",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-02-18T04:13:54.867Z",
+            "modified": "2024-02-18T04:27:04.608Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\":\"Maestro\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "d8cc2ebd-250a-4ab3-ae52-62dde9f4ec1a",
+            "colId": "8134ac2c-06db-42be-8efb-22a39b2b08a9",
+            "containerId": "",
+            "name": "estudianteDelete",
+            "url": "http://localhost:3000/api/estudiantes/65d1858990345fdeea728f81",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-02-18T04:13:54.868Z",
+            "modified": "2024-02-18T04:23:28.835Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "8d007492-66b3-4bdb-89e1-869a4dd866cd",
+            "colId": "8134ac2c-06db-42be-8efb-22a39b2b08a9",
+            "containerId": "",
+            "name": "estudianteLogin",
+            "url": "http://localhost:3000/api/estudiantes/login",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-02-18T04:13:54.869Z",
+            "modified": "2024-02-18T04:27:16.128Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"correo\":\"teacher1@email.com\",\n  \"password\":\"123456\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
