@@ -1,0 +1,61 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Alumnos",
+    "dateExported": "2024-02-23T17:46:03.491Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "6f244c63-294b-4d4e-aa13-47422ece724b",
+            "colId": "f0288592-e38c-4a92-a81f-bfc48b040098",
+            "containerId": "",
+            "name": "estudiantesPost",
+            "url": "http://localhost:3000/api/estudiantes",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-02-23T14:59:34.875Z",
+            "modified": "2024-02-23T16:52:42.971Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\":\"Suyen\",\n  \"correo\":\"suyen@email.com\",\n  \"password\":\"123456\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "4856534d-d093-4b01-8d51-82c693be1186",
+            "colId": "f0288592-e38c-4a92-a81f-bfc48b040098",
+            "containerId": "",
+            "name": "estudiantesPut",
+            "url": "http://localhost:3000/api/estudiantes/65d1868e62e44e4c7b15cc0d",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-02-23T14:59:34.878Z",
+            "modified": "2024-02-23T14:59:34.878Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\":\"Maestro\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "92846b06-c1d2-4b01-8da5-a3e43526d82d",
+            "colId": "f0288592-e38c-4a92-a81f-bfc48b040098",
+            "containerId": "",
+            "name": "estudianteDelete",
+            "url": "http://localhost:3000/api/estudiantes/65d1858990345fdeea728f81",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-02-23T14:59:34.879Z",
+            "modified": "2024-02-23T14:59:34.879Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

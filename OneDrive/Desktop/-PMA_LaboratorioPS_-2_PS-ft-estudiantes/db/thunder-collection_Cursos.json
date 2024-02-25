@@ -1,0 +1,80 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Cursos",
+    "dateExported": "2024-02-23T17:45:52.419Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "7fcec3c4-a22e-461f-8394-58a0a70d1141",
+            "colId": "399d3017-7c25-4830-b4f5-6ea8cbfc35a0",
+            "containerId": "",
+            "name": "cursosGet",
+            "url": "http://localhost:3000/api/cursos",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-02-23T14:59:34.861Z",
+            "modified": "2024-02-23T14:59:34.861Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "23a31301-78ab-4dc5-aae9-dfb9a98b2542",
+            "colId": "399d3017-7c25-4830-b4f5-6ea8cbfc35a0",
+            "containerId": "",
+            "name": "cursosPost",
+            "url": "http://localhost:3000/api/cursos",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-02-23T14:59:34.862Z",
+            "modified": "2024-02-23T17:32:40.731Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\":\"Ciencias Quimicas\",\n  \"materia\":\"Biologia\",\n  \"maestro\":\"teacher@email.com\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "be16692c-12f2-4281-81e1-eecd74b84180",
+            "colId": "399d3017-7c25-4830-b4f5-6ea8cbfc35a0",
+            "containerId": "",
+            "name": "cursosPut",
+            "url": "http://localhost:3000/api/cursos/65d8b31abcdfc741a1aa9399",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-02-23T14:59:34.864Z",
+            "modified": "2024-02-23T15:01:02.432Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\":\"Ciencias\",\n  \"maestro\":\"65d1868e62e44e4c7b15cc0d\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "373e0534-f9bf-4ba6-b42f-ce462d363029",
+            "colId": "399d3017-7c25-4830-b4f5-6ea8cbfc35a0",
+            "containerId": "",
+            "name": "cursoDelete",
+            "url": "http://localhost:3000/api/cursos/65d8b31abcdfc741a1aa9399",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-02-23T14:59:34.865Z",
+            "modified": "2024-02-23T15:01:10.446Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"maestro\":\"65d8b31abcdfc741a1aa9399\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
