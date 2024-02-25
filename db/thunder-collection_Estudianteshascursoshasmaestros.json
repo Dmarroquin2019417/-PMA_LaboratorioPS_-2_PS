@@ -1,0 +1,75 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Estudianteshascursoshasmaestros",
+    "dateExported": "2024-02-25T17:41:06.679Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "2088e807-60d5-482d-8d9b-372b8141c4f8",
+            "colId": "01860a0e-d093-483d-acd4-561feff1a1a2",
+            "containerId": "",
+            "name": "Asignación_estudiantes_curso",
+            "url": "http://localhost:3000/api/has",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-02-25T15:41:23.627Z",
+            "modified": "2024-02-25T17:40:09.423Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"correo\":\"toby@email.com\",\n  \"materia\":\"Ciencias\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "ceb7a849-15bb-4e91-924d-6b4b5feddc34",
+            "colId": "01860a0e-d093-483d-acd4-561feff1a1a2",
+            "containerId": "",
+            "name": "Eliminar_estudiante_curso",
+            "url": "http://localhost:3000/api/has/65d18833be5fddb9519c265d",
+            "method": "DELETE",
+            "sortNum": 20000,
+            "created": "2024-02-25T15:41:23.628Z",
+            "modified": "2024-02-25T17:23:55.418Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "836fde0d-36f1-4939-9fae-3a5e0dc6384d",
+            "colId": "01860a0e-d093-483d-acd4-561feff1a1a2",
+            "containerId": "",
+            "name": "estudiantes_cursos",
+            "url": "http://localhost:3000/api/has",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-02-25T15:41:23.629Z",
+            "modified": "2024-02-25T17:05:52.601Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "8feceb86-e94f-4ea1-9ec4-bfe2be254a97",
+            "colId": "01860a0e-d093-483d-acd4-561feff1a1a2",
+            "containerId": "",
+            "name": "MestrosPost",
+            "url": "http://localhost:3000/api/estudiantes",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-02-25T16:12:11.294Z",
+            "modified": "2024-02-25T16:13:54.713Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\":\"Alejandra\",\n  \"correo\":\"teacherAlen@email.com\",\n  \"password\":\"123456\",\n  \"role\":\"TEACHER_ROLE\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

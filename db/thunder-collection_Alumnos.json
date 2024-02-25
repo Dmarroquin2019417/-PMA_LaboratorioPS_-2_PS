@@ -1,0 +1,61 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Alumnos",
+    "dateExported": "2024-02-25T17:40:57.687Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "762d84cb-7ad0-48d0-8c9e-b569171792d5",
+            "colId": "7fcc2ad3-439e-4907-b258-6fa0fffce3ed",
+            "containerId": "",
+            "name": "estudiantesPost",
+            "url": "http://localhost:3000/api/estudiantes",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-02-25T15:41:23.512Z",
+            "modified": "2024-02-25T17:39:23.547Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\":\"Toby\",\n  \"correo\":\"toby@email.com\",\n  \"password\":\"123456\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "ee4b717b-aaa6-4a7f-9dad-8dbd02d137e7",
+            "colId": "7fcc2ad3-439e-4907-b258-6fa0fffce3ed",
+            "containerId": "",
+            "name": "estudiantesPut",
+            "url": "http://localhost:3000/api/estudiantes/65db769420a33b825ec6c131",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-02-25T15:41:23.513Z",
+            "modified": "2024-02-25T17:20:42.859Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\":\"Luis\",\n  \"correo\":\"edgar@email.com\",\n  \"password\":\"123456\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "5ba6b243-77ee-4ae4-89e5-a19853436941",
+            "colId": "7fcc2ad3-439e-4907-b258-6fa0fffce3ed",
+            "containerId": "",
+            "name": "estudianteDelete",
+            "url": "http://localhost:3000/api/estudiantes/65db769420a33b825ec6c131",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-02-25T15:41:23.514Z",
+            "modified": "2024-02-25T17:21:12.043Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
